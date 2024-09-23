@@ -29,11 +29,11 @@ docker container rename my-app5 my-app1
 ```
 ### ============= kendi projemizi Docker image haline çevimek =============
 ```
-docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.1.jar   --tag    mimaraslan/devops-001-hello:v001   .
+docker build  --build-arg JAR_FILE=target/devops_001_hello1-1.0.1.jar   --tag    emreserxun/devops_001_hello:v001   .
 
-docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2.jar   --tag    mimaraslan/devops-001-hello:v002   .
+docker build  --build-arg JAR_FILE=target/devops_001_hello1-1.0.2.jar   --tag   emreserxun/devops_001_hello:v002   .
 
-docker build  --build-arg JAR_FILE=target/devops-001-hello-1.0.2.jar   --tag    mimaraslan/devops-001-hello:latest   .
+docker build  --build-arg JAR_FILE=target/devops_001_hello1-1.0.2.jar   --tag    emreserxun/devops_001_hello:latest   .
 ```
 ============= kendi projemizi Docker image'den container haline çevimek =============
 ```
